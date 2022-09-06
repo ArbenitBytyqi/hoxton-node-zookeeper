@@ -51,6 +51,10 @@ WHERE name="Danger";
 
 ALTER TABLE Animals DROP COLUMN favorite_food;
 
+--Query to track Origin
+
+ALTER TABLE Animals ADD Origin TEXT;
+
 --Query to track origin of Animals
 
 UPDATE Animals
